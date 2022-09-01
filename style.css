@@ -23,7 +23,7 @@
   justify-content: space-between;
   font-family: "Rubik", sans-serif;
 
-  position: sticky;
+  position: fixed;
   top: 0;
   background-color: white;
   z-index: 1;
@@ -82,7 +82,7 @@ main {
 }
 
 #hero {
-  padding: 70px 0;
+  padding: 120px 70px;
   max-width: 100%;
   display: flex;
   justify-content: right;
@@ -100,7 +100,6 @@ main {
 .hero-info h1 {
   font-size: 40px;
   width: 80%;
-  min-width: 600px;
   font-weight: 800;
   color: black;
   font-family: "Poppins", sans-serif;
